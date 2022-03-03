@@ -1,35 +1,33 @@
 {
-  "extends": "next/core-web-vitals",
-  "plugins": [
-    "eslint-plugin-import-helpers"
-  ],
-  "rules": {
-    "import-helpers/order-imports": [
-      "error",
-      {
+	"extends": ["eslint:recommended", "prettier", "next/core-web-vitals", ""],
+	"plugins": ["eslint-plugin-import-helpers", "@typescript-eslint"],
+	"rules": {
+		"import-helpers/order-imports": [
+			"error",
+			{
 				"groups": [
-          "module",
-          "/types/",
-          "/enums/",
-          "/hooks/",
-          "/store/",
-          "/utils/",
-          "/mock/",
-          "/pages/",
-          "/templates/",
-          "/organisms/",
-          "/molecules/",
-          "/atoms/",
-          "/^react-bootstrap/",
-          "sibling",
-          "/.gql$/",
-          "/assets/",
-          "/fragments/",
-          "/img/"
-        ],
+					"module",
+					"/types/",
+					"/enums/",
+					"/hooks/",
+					"/store/",
+					"/utils/",
+					"/mock/",
+					"/pages/",
+					"/templates/",
+					"/organisms/",
+					"/molecules/",
+					"/atoms/",
+					"/^react-bootstrap/",
+					"sibling",
+					"/.gql$/",
+					"/assets/",
+					"/fragments/",
+					"/img/"
+				],
 				"newlinesBetween": "always"
-      }
-    ],
-    "no-multiple-empty-lines": 1
-  }
+			}
+		],
+		"no-multiple-empty-lines": 1
+	}
 }
