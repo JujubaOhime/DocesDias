@@ -13,6 +13,7 @@ const Home = () => {
 				/>
 			</Head>
 			<Styled.Title>oi</Styled.Title>
+			<p>teste do deploy</p>
 		</div>
 	);
 };
