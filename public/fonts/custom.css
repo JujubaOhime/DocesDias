@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url("./Comfortaa-Bold.ttf");
+    font-weight: 800;
+    font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url("./Comfortaa-Regular.ttf");
+    font-weight: 500;
+    font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: "Parisienne";
+    src: url("./Parisienne-Regular.ttf");
+    font-style: normal;
+	font-display: swap;
+}

@@ -28,6 +28,13 @@ export const reset = {
 		background: "transparent",
 	},
 
+	"body, textarea, input, select, option, button": {
+		fontSize: "1.6rem",
+		lineHeight: "1.2",
+		fontWeight: "500",
+		fontFamily: "Comfortaa",
+	},
+
 	img: {
 		border: 0,
 		fontSize: 0,
@@ -42,10 +49,19 @@ export const reset = {
 	},
 
 	body: {
-		fontFamily: "Manrope",
+		fontFamily: "Comfortaa",
 		margin: 0,
 		padding: 0,
 		boxSizing: "border-box",
+	},
+
+	"html, body": {
+		height: "100%",
+	},
+
+	"body > footer": {
+		position: "sticky",
+		top: "100vh",
 	},
 
 	"input[type='search']::-webkit-search-decoration, input[type='search']::-webkit-search-cancel-button, input[type='search']::-webkit-search-results-button, input[type='search']::-webkit-search-results-decoration":

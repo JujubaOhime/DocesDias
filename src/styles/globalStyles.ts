@@ -4,4 +4,6 @@ import { reset } from "./global/reset";
 
 export const globalStyles = globalCss({
 	...reset,
+
+	"@import": "/fonts/custom.css",
 });
