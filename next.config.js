@@ -5,7 +5,7 @@ const nextConfig = {
 	assetPrefix: isProd ? "/DocesDias" : "",
 	images: {
 		loader: "akamai",
-		path: isProd ? "/DocesDias" : "",
+		path: "",
 	},
 };
 
