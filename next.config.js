@@ -3,6 +3,10 @@ const isProd = process.env.NODE_ENV === "production";
 const nextConfig = {
 	reactStrictMode: true,
 	assetPrefix: isProd ? "/DocesDias" : "",
+	images: {
+		loader: "akamai",
+		path: isProd ? "/DocesDias" : "",
+	},
 };
 
 module.exports = nextConfig;
