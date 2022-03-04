@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import Image from "next/image";
 
 import { prefix } from "utils/prefix";
 
@@ -24,11 +24,12 @@ const Footer = () => {
 					<li>
 						<Link href="https://www.instagram.com/docesdiasdagi/">
 							<a aria-label="Instagram">
-								<Image
+								<img
 									src={instagramLogo}
 									alt=""
 									width={30}
 									height={30}
+									loading="lazy"
 								/>
 							</a>
 						</Link>
@@ -36,11 +37,12 @@ const Footer = () => {
 					<li>
 						<Link href="http://wa.me/+5521970594240">
 							<a aria-label="Whatsapp">
-								<Image
+								<img
 									src={whatsappLogo}
 									alt=""
 									width={30}
 									height={30}
+									loading="lazy"
 								/>
 							</a>
 						</Link>

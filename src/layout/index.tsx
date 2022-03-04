@@ -15,8 +15,9 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
 				) ?? 0;
 			const footerHeight = footer?.getBoundingClientRect().height ?? 0;
 			setFooterHeight(footerHeight + marginFooter);
+			console.log(footerHeight + marginFooter);
 		};
-
+		updateFooterdimension();
 		window.addEventListener("resize", updateFooterdimension);
 
 		return () => {
