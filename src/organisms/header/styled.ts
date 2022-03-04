@@ -49,7 +49,6 @@ export const Nav = styled("nav", {
 
 	a: {
 		color: "$brand-text",
-		paddingBottom: "2px",
 		position: "relative",
 		fontWeight: "800",
 		transition: "transform 0.5s cubic-bezier(0.4, 1, 0.8, 1)",
@@ -62,7 +61,7 @@ export const Nav = styled("nav", {
 			content: "",
 			width: "0",
 			transform: "translateX(-50%)",
-			top: "25px",
+			top: "20px",
 			left: "50%",
 			borderBottom: "2px solid $green",
 			position: "absolute",
