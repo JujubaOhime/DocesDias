@@ -4,8 +4,8 @@ const nextConfig = {
 	reactStrictMode: true,
 	assetPrefix: isProd ? "/DocesDias" : "",
 	images: {
-		loader: "akamai",
-		path: "",
+		loader: "imgix",
+		path: "/",
 	},
 };
 
