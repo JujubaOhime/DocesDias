@@ -6,6 +6,10 @@ export default class Document extends NextDocument {
 		return (
 			<Html lang="pt-br">
 				<Head>
+					<meta
+						name="description"
+						content="Doces Dias - Por Gizelle Dias • Bolos - Doces - Sobremesas • São Gonçalo - RJ"
+					/>
 					<style
 						id="stitches"
 						dangerouslySetInnerHTML={{ __html: getCssText() }}
