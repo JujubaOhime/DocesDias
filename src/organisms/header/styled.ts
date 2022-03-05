@@ -6,7 +6,6 @@ export const Header = styled("header", {
 	marginBottom: "60px",
 	background: "$brand-text",
 	position: "relative",
-	"overflow-x": "clip",
 });
 
 export const TitleUp = styled("h2", {

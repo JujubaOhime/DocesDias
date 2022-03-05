@@ -30,7 +30,8 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
 			<div
 				className="content"
 				style={{
-					minHeight: `calc(100vh - ${footerHeight}px`,
+					minHeight: `calc(100vh - ${footerHeight}px)`,
+					overflow: "hidden",
 				}}
 			>
 				<Header />
