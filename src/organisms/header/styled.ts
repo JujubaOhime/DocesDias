@@ -3,7 +3,7 @@ import { styled } from "stitches.config";
 export const flagSize = 40;
 
 export const Header = styled("header", {
-	marginBottom: "40px",
+	marginBottom: "60px",
 	background: "$brand-text",
 	position: "relative",
 	"overflow-x": "clip",

@@ -3,8 +3,10 @@ export const colors = {
 	"brand-text": "#f07f83",
 	"brand-dark": "#693e5b",
 
-	green: "#9eaf83",
-	"green-text": "#75a480",
+	"green-soft": "#a1cca5",
+	green: "#8fb996",
+	"green-dark": "#709775",
+	"green-darker": "#415d43",
 
 	white: "#fafafa",
 

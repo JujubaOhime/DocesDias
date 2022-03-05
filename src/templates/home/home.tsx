@@ -1,8 +1,7 @@
 import Head from "next/head";
 
 import Container from "atoms/container/container";
-
-import * as Styled from "./styled";
+import Ribbon from "atoms/ribbon";
 
 const Home = () => {
 	return (
@@ -15,8 +14,7 @@ const Home = () => {
 				/>
 			</Head>
 			<Container>
-				<Styled.Title>oi</Styled.Title>
-				<p>teste do deploy</p>
+				<Ribbon text="Nossos serviços" />
 			</Container>
 		</div>
 	);

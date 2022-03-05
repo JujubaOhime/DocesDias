@@ -14,12 +14,12 @@ const Layout = ({ children }: React.PropsWithChildren<{}>) => {
 					window.getComputedStyle(footer as HTMLElement).marginTop
 				) ?? 0;
 			const footerHeight = footer?.getBoundingClientRect().height ?? 0;
+
 			setFooterHeight(footerHeight + marginFooter);
-			console.log(footerHeight + marginFooter);
 		};
 		updateFooterdimension();
-		window.addEventListener("resize", updateFooterdimension);
 
+		window.addEventListener("resize", updateFooterdimension);
 		return () => {
 			window.removeEventListener("resize", updateFooterdimension);
 		};

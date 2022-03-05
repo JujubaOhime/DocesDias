@@ -8,8 +8,6 @@ import * as Styled from "./styled";
 const Header = () => {
 	const [flagQuantity, setFlagQuantity] = useState(40);
 
-	console.log(flagQuantity);
-
 	useEffect(() => {
 		const updateDimensions = () => {
 			setFlagQuantity(Math.ceil(window.innerWidth / Styled.flagSize));
