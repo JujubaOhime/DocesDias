@@ -1,7 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 
+import OurProducts from "organisms/ourProducts";
+
 import Container from "atoms/container/container";
-import Ribbon from "atoms/ribbon";
 
 const Home = () => {
 	return (
@@ -14,7 +16,7 @@ const Home = () => {
 				/>
 			</Head>
 			<Container>
-				<Ribbon text="Nossos serviços" />
+				<OurProducts />
 			</Container>
 		</div>
 	);

@@ -4,10 +4,10 @@ export const RibbonContainer = styled("div", {
 	display: "flex",
 	justifyContent: "center",
 	marginBottom: "30px",
-	margin: "0 60px 20px",
+	padding: "0 60px 20px",
 
 	"@phoneOnly": {
-		margin: "0 35px 20px",
+		padding: "0 44px 20px",
 	},
 });
 
