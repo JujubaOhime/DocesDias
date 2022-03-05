@@ -9,6 +9,10 @@ const Home = () => {
 		<div>
 			<Head>
 				<title>Doces Dias</title>
+				<meta
+					name="description"
+					content="Doces Dias - Por Gizelle Dias • Bolos - Doces - Sobremesas • São Gonçalo - RJ"
+				/>
 			</Head>
 			<Container>
 				<Styled.Title>oi</Styled.Title>
