@@ -6,7 +6,7 @@ import Container from "atoms/container";
 import * as Styled from "./styled";
 
 const Header = () => {
-	const [flagQuantity, setFlagQuantity] = useState(40);
+	const [flagQuantity, setFlagQuantity] = useState(0);
 
 	useEffect(() => {
 		const updateDimensions = () => {
