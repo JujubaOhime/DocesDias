@@ -10,6 +10,7 @@ export const Products = styled("div", {
 	justifyContent: "center",
 	gap: "20px",
 	marginTop: "20px",
+	flexWrap: "wrap",
 });
 
 export const ProductImg = styled("img", {
