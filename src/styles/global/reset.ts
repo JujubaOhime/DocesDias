@@ -53,6 +53,7 @@ export const reset = {
 		margin: 0,
 		padding: 0,
 		boxSizing: "border-box",
+		background: "$background",
 	},
 
 	"input[type='search']::-webkit-search-decoration, input[type='search']::-webkit-search-cancel-button, input[type='search']::-webkit-search-results-button, input[type='search']::-webkit-search-results-decoration":

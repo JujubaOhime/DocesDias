@@ -1,38 +1,39 @@
 import { styled } from "stitches.config";
 
+export const flagSize = 40;
+
 export const Header = styled("header", {
-	borderTop: "5px solid $green",
-	display: "flex",
-	justifyContent: "space-between",
-	alignItems: "center",
-	marginBottom: "20px",
+	marginBottom: "40px",
+	background: "$brand-text",
+	position: "relative",
+	"overflow-x": "clip",
 });
 
 export const TitleUp = styled("h2", {
-	fontSize: "3rem",
+	fontSize: "4rem",
 	fontFamily: "Parisienne",
-	color: "$brand-text",
+	color: "$white",
 	lineHeight: "1",
 
 	"@phoneOnly": {
-		fontSize: "2.4rem",
+		fontSize: "3.6rem",
 	},
 });
 
 export const TitleBottom = styled("h2", {
-	fontSize: "3rem",
+	fontSize: "4rem",
 	fontFamily: "Parisienne",
-	color: "$brand-text",
+	color: "$white",
 	lineHeight: "1",
 	marginLeft: "20px",
 
 	"@phoneOnly": {
-		fontSize: "2.4rem",
+		fontSize: "3.2rem",
 	},
 });
 
 export const TitlesContainer = styled("div", {
-	padding: "10px 20px 0",
+	padding: "20px 0",
 	display: "flex",
 	flexDirection: "column",
 	transition: "transform 0.5s cubic-bezier(0.4, 1, 0.8, 1)",
@@ -45,10 +46,10 @@ export const TitlesContainer = styled("div", {
 export const Nav = styled("nav", {
 	display: "flex",
 	gap: "20px",
-	padding: "20px",
+	paddingBottom: "25px",
 
 	a: {
-		color: "$brand-text",
+		color: "$white",
 		position: "relative",
 		fontWeight: "800",
 		transition: "transform 0.5s cubic-bezier(0.4, 1, 0.8, 1)",
@@ -76,4 +77,16 @@ export const Nav = styled("nav", {
 			fontSize: "1.4rem",
 		},
 	},
+});
+
+export const TriangleBorder = styled("span", {
+	transform: "rotate(-45deg)",
+	borderRadius: "0 0 0 10px",
+	background: "$brand-text",
+	height: `${flagSize}px`,
+	width: `${flagSize}px`,
+	position: "absolute",
+	pointerEvents: "none",
+	bottom: "-12px",
+	zIndex: "-1",
 });
