@@ -39,9 +39,9 @@ export const Flag = styled("span", {
 	bottom: "-20px",
 
 	"@phoneOnly": {
-		bottom: "-16px",
+		bottom: "-17px",
 		width: "20px",
-		border: "15px solid $green",
+		border: "20px solid $green",
 	},
 
 	variants: {
@@ -51,7 +51,7 @@ export const Flag = styled("span", {
 				borderLeftColor: "transparent",
 
 				"@phoneOnly": {
-					left: "-35px",
+					left: "-44px",
 				},
 			},
 
@@ -60,7 +60,7 @@ export const Flag = styled("span", {
 				right: "-60px",
 
 				"@phoneOnly": {
-					right: "-35px",
+					right: "-44px",
 				},
 			},
 		},
@@ -85,7 +85,7 @@ export const FlagShadow = styled("span", {
 				left: "-20px",
 
 				"@phoneOnly": {
-					left: "-17px",
+					left: "-16px",
 				},
 			},
 
@@ -94,7 +94,7 @@ export const FlagShadow = styled("span", {
 				borderLeftColor: "$green-dark",
 
 				"@phoneOnly": {
-					right: "-17px",
+					right: "-16px",
 				},
 			},
 		},
