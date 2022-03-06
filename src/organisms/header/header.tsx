@@ -31,7 +31,7 @@ const Header = () => {
 							flexDirection: "column",
 						}}
 					>
-						<Link href="#">
+						<Link href="/">
 							<a aria-label="Página inicial">
 								<Styled.TitlesContainer>
 									<Styled.TitleUp>Doces</Styled.TitleUp>
