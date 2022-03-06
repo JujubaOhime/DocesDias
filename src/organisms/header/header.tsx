@@ -43,7 +43,7 @@ const Header = () => {
 						</Link>
 
 						<Styled.Nav>
-							<Link href="#">
+							<Link href="/cardapio">
 								<a>Cardápio</a>
 							</Link>
 

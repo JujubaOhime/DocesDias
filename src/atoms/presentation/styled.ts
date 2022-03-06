@@ -11,6 +11,7 @@ export const Presentation = styled("section", {
 	"@phoneOnly": {
 		flexDirection: "column",
 		gap: "20px",
+		margin: "60px 0",
 	},
 });
 
