@@ -1,6 +1,6 @@
 const bot = {
 	token: "5292933983:AAHX0fuaAjW9dqp_EyimVEP8VzDqAt6cSqo",
-	id: "-632068514",
+	id: "-1001774169319",
 };
 
 export const sendTelegramMessage = async (message: string) => {
