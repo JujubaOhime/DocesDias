@@ -1,0 +1,1 @@
+self.__BUILD_MANIFEST={__rewrites:{beforeFiles:[],afterFiles:[],fallback:[]},"/":["static/chunks/pages/index-33e419e73b36a28b.js"],"/_error":["static/chunks/pages/_error-2f883067a14f4c4a.js"],"/cardapio":["static/chunks/pages/cardapio-037b90ad68f21675.js"],sortedPages:["/","/_app","/_error","/cardapio"]},self.__BUILD_MANIFEST_CB&&self.__BUILD_MANIFEST_CB();
