@@ -21,42 +21,46 @@ const Header = () => {
 	}, []);
 	return (
 		<>
-			<Styled.Header>
-				<Container
-					style={{
-						display: "flex",
-						justifyContent: "center",
-						alignItems: "center",
-						flexDirection: "column",
-					}}
-				>
-					<Link href="#">
-						<a aria-label="Página inicial">
-							<Styled.TitlesContainer>
-								<Styled.TitleUp>Doces</Styled.TitleUp>
-								<Styled.TitleBottom>Dias</Styled.TitleBottom>
-							</Styled.TitlesContainer>
-						</a>
-					</Link>
-
-					<Styled.Nav>
+			<header style={{ paddingBottom: "16px", marginBottom: "40px" }}>
+				<Styled.Header>
+					<Container
+						style={{
+							display: "flex",
+							justifyContent: "center",
+							alignItems: "center",
+							flexDirection: "column",
+						}}
+					>
 						<Link href="#">
-							<a>Cardápio</a>
+							<a aria-label="Página inicial">
+								<Styled.TitlesContainer>
+									<Styled.TitleUp>Doces</Styled.TitleUp>
+									<Styled.TitleBottom>
+										Dias
+									</Styled.TitleBottom>
+								</Styled.TitlesContainer>
+							</a>
 						</Link>
 
-						<Link href="#">
-							<a>Sobre nós</a>
-						</Link>
-					</Styled.Nav>
-				</Container>
+						<Styled.Nav>
+							<Link href="#">
+								<a>Cardápio</a>
+							</Link>
 
-				{[...new Array(flagQuantity)].map((_, index) => (
-					<Styled.TriangleBorder
-						style={{ left: `${40 * index}px` }}
-						key={index}
-					/>
-				))}
-			</Styled.Header>
+							<Link href="#">
+								<a>Sobre nós</a>
+							</Link>
+						</Styled.Nav>
+					</Container>
+
+					{[...new Array(flagQuantity)].map((_, index) => (
+						<Styled.TriangleBorder
+							style={{ left: `${40 * index}px` }}
+							key={index}
+						/>
+					))}
+				</Styled.Header>
+			</header>
 		</>
 	);
 };

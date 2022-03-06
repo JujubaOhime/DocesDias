@@ -12,7 +12,7 @@ const brownies = `${prefix}/images/brownies.png`;
 
 const OurProducts = () => (
 	<Styled.OurProducts>
-		<Ribbon text="Nossos produtos" />
+		<Ribbon>Nossos produtos</Ribbon>
 		<Styled.Products>
 			<div>
 				<Styled.ProductImg alt="" src={cakes} />

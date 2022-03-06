@@ -2,33 +2,26 @@ import { styled } from "stitches.config";
 
 export const flagSize = 40;
 
-export const Header = styled("header", {
-	marginBottom: "60px",
-	background: "$brand-text",
+export const Header = styled("div", {
+	background: "$brand",
 	position: "relative",
 });
 
 export const TitleUp = styled("h2", {
 	fontSize: "4rem",
 	fontFamily: "Parisienne",
-	color: "$white",
+	color: "$background",
+	fontWeight: 400,
 	lineHeight: "1",
-
-	"@phoneOnly": {
-		fontSize: "3.6rem",
-	},
 });
 
 export const TitleBottom = styled("h2", {
 	fontSize: "4rem",
 	fontFamily: "Parisienne",
-	color: "$white",
+	color: "$background",
+	fontWeight: 400,
 	lineHeight: "1",
 	marginLeft: "20px",
-
-	"@phoneOnly": {
-		fontSize: "3.2rem",
-	},
 });
 
 export const TitlesContainer = styled("div", {
@@ -48,7 +41,8 @@ export const Nav = styled("nav", {
 	paddingBottom: "25px",
 
 	a: {
-		color: "$white",
+		fontSize: "1.8rem",
+		color: "$background",
 		position: "relative",
 		fontWeight: "800",
 		transition: "transform 0.5s cubic-bezier(0.4, 1, 0.8, 1)",
@@ -61,7 +55,7 @@ export const Nav = styled("nav", {
 			content: "",
 			width: "0",
 			transform: "translateX(-50%)",
-			top: "20px",
+			top: "25px",
 			left: "50%",
 			borderBottom: "2px solid $green",
 			position: "absolute",
@@ -74,6 +68,9 @@ export const Nav = styled("nav", {
 
 		"@phoneOnly": {
 			fontSize: "1.4rem",
+			"&:after": {
+				top: "20px",
+			},
 		},
 	},
 });
@@ -81,7 +78,7 @@ export const Nav = styled("nav", {
 export const TriangleBorder = styled("span", {
 	transform: "rotate(-45deg)",
 	borderRadius: "0 0 0 10px",
-	background: "$brand-text",
+	background: "$brand",
 	height: `${flagSize}px`,
 	width: `${flagSize}px`,
 	position: "absolute",

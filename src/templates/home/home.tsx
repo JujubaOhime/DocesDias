@@ -4,6 +4,7 @@ import Head from "next/head";
 import OurProducts from "organisms/ourProducts";
 
 import Container from "atoms/container/container";
+import Presentation from "atoms/presentation";
 
 const Home = () => {
 	return (
@@ -16,6 +17,7 @@ const Home = () => {
 				/>
 			</Head>
 			<Container>
+				<Presentation />
 				<OurProducts />
 			</Container>
 		</div>

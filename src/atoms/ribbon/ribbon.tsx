@@ -1,17 +1,17 @@
+import React, { PropsWithChildren } from "react";
+
 import * as Styled from "./styled";
 
-type PropsType = {
-	text: string;
-};
-
-const Ribbon = (props: PropsType) => (
+const Ribbon = ({ children }: PropsWithChildren<{}>) => (
 	<Styled.RibbonContainer>
 		<Styled.Ribbon>
-			{props.text}
-			<Styled.FlagShadow left={true} />
-			<Styled.FlagShadow left={false} />
-			<Styled.Flag left={true} />
-			<Styled.Flag left={false} />
+			<Styled.Dashed>
+				{children}
+				<Styled.FlagShadow left={true} />
+				<Styled.FlagShadow left={false} />
+				<Styled.Flag left={true} />
+				<Styled.Flag left={false} />
+			</Styled.Dashed>
 		</Styled.Ribbon>
 	</Styled.RibbonContainer>
 );

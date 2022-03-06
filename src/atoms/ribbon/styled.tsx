@@ -11,6 +11,17 @@ export const RibbonContainer = styled("div", {
 	},
 });
 
+export const Dashed = styled("div", {
+	borderTop: "3px dashed $white",
+	borderBottom: "3px dashed $white",
+	padding: "5px 0",
+	width: "100%",
+
+	"@phoneOnly": {
+		padding: "3px 0",
+	},
+});
+
 export const Ribbon = styled("div", {
 	width: "100%",
 	maxWidth: "600px",
