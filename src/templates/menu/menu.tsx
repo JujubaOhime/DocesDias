@@ -20,7 +20,7 @@ const Menu = () => {
 			<Container>
 				<Ribbon>Faça seu Pedido</Ribbon>
 				<Styled.Text style={{ textAlign: "center" }}>
-					Assim que terminado seu pedido, logo entraremos em contato
+					Terminado o seu pedido, logo entraremos em contato
 				</Styled.Text>
 				<OrderForm />
 			</Container>
