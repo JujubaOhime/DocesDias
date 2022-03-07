@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+import { prefix } from "utils/prefix";
+
 import Container from "atoms/container";
 
 import * as Styled from "./styled";
@@ -31,7 +33,7 @@ const Header = () => {
 							flexDirection: "column",
 						}}
 					>
-						<Link href="/">
+						<Link href={`${prefix}/`}>
 							<a aria-label="Página inicial">
 								<Styled.TitlesContainer>
 									<Styled.TitleUp>Doces</Styled.TitleUp>
@@ -43,11 +45,11 @@ const Header = () => {
 						</Link>
 
 						<Styled.Nav>
-							<Link href="/cardapio">
+							<Link href={`${prefix}/cardapio`}>
 								<a>Cardápio</a>
 							</Link>
 
-							<Link href="#">
+							<Link href={`${prefix}/#`}>
 								<a>Sobre nós</a>
 							</Link>
 						</Styled.Nav>
