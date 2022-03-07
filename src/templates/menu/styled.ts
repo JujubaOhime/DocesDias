@@ -1,5 +1,7 @@
 import { styled } from "stitches.config";
 
-export const Title = styled("h1", {
-	color: "red",
+export const Text = styled("p", {
+	fontSize: "2rem",
+	textAlign: "center",
+	marginBottom: "30px",
 });

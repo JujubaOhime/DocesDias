@@ -6,5 +6,11 @@ const bot = {
 export const sendTelegramMessage = async (message: string) => {
 	return await fetch(
 		`https://api.telegram.org/bot${bot.token}/sendMessage?chat_id=${bot.id}&text=${message}`
-	);
+	)
+		.then((response) => {
+			return response;
+		})
+		.catch(() => {
+			return { ok: false };
+		});
 };

@@ -43,4 +43,8 @@ export const Developer = styled("a", {
 export const LinksContainer = styled("ul", {
 	display: "flex",
 	gap: "15px",
+
+	img: {
+		filter: "brightness(0) saturate(100%) invert(92%) sepia(86%) saturate(1451%) hue-rotate(287deg) brightness(102%) contrast(104%)",
+	},
 });

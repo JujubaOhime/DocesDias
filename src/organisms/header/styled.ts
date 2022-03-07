@@ -62,7 +62,7 @@ export const Nav = styled("nav", {
 			transition: "width 0.5s ease",
 		},
 
-		"&:hover::after, &:focus::after": {
+		"&:hover::after": {
 			width: "50%",
 		},
 
